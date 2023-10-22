@@ -4,7 +4,7 @@
 #
 # Catware Development. 2019-2021
 #
-# CatAMBS FastStart Boot
+# CatABMS FastStart Boot
 #
 
 import sys, os, psutil
