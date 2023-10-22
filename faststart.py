@@ -2,9 +2,9 @@
 #
 # -*- coding: utf-8 -*-
 #
-# Catware Development. 2016-2021
+# Catware Development. 2019-2021
 #
-# CatOS FastStart Boot
+# CatAMBS FastStart Boot
 #
 
 import sys, os, psutil
