@@ -1,0 +1,1 @@
+{"author": "aGrIk, catwared", "mode": "=", "deps": "None", "identificator": "commands", "command_ru": "команды", "description": "Список команд бота.\nИспользование: команды (флаг)\nФлаги:\n-откл, -доп, -лист", "testing": false, "hide": false, "restricted": false, "disabled": false}

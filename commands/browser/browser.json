@@ -1,0 +1,1 @@
+{"author": "catwared", "mode": "start", "deps": "None", "identificator": "browser", "command_ru": "браузер", "description": "Получает текст веб-страницы", "testing": false, "hide": false, "restricted": false, "disabled": true}

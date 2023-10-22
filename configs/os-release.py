@@ -1,0 +1,6 @@
+botname = "CatPy Stable"
+version = "1.1"
+core = "Gen2"
+abms_name = "CatABMS | Catware Advanced Bot Manipulation System"
+codename = "GrOb 37 Anniversary"
+releasedate = "08.11.2021"

@@ -1,0 +1,1 @@
+{"author": "catwared, https://vk.com/voroninmine", "mode": "parameter", "deps": "None", "identificator": "dehex", "command_ru": "dehex", "description": "Декодировщик текста из HEX", "testing": false, "hide": false, "restricted": false, "disabled": false}

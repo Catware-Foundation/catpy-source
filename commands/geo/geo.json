@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "start", "deps": "None", "identificator": "geo", "command_ru": "гео", "description": "Команда получения географических координат по точному адресу места. ", "testing": false, "hide": false, "restricted": false, "disabled": false}

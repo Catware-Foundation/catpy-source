@@ -1,0 +1,1 @@
+{"author": "catwared", "mode": "start", "deps": "None", "identificator": "knopki", "command_ru": "кнопки", "description": "Добавить кнопку в диалог (Используйте флаг -delete для удаления кнопок.)", "testing": false, "hide": false, "restricted": false, "disabled": true}

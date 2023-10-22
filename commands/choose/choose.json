@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "start", "deps": "None", "identificator": "choose", "command_ru": "выбери", "description": "Выбирает один элемент из нескольких перечисленных через \"или\" элементов", "testing": false, "hide": false, "restricted": false, "disabled": false}

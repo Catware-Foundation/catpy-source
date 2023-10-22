@@ -1,0 +1,78 @@
+emoji_list = ReadFF("allemoji.txt").split("\n")
+categories = []
+fodwords = [
+  {
+    "word": "Fields of Dreams",
+    "description": "Название данной игры",
+    "wordlanguage": "Английский",
+    "category": "Игры",
+    "id": "fod",
+    "letters": ["f", "i", "e", "l", "d", "s", "o", "r", "a", "m"]
+  }
+]
+englishletters = list("qazxswedcvfrtgbnhyujmkiolp")
+russianletters = list("ёйцукенгшщзхъфывапролдячсмитьбю")
+FODfile = ReadFF("usr/FOD.txt").split("\n")
+
+def getletters(text):
+    text = text.replace(" ", "").lower()
+    ltrs = []
+    for x in text:
+        if x in ltrs:
+            pass
+        else:
+            ltrs.append(x)
+    return ltrs
+
+def getlanguage(text):
+    text = str(text).replace(" ", "")
+    ruscount = 0
+    encount = 0
+    for x in text:
+        x = x.lower()
+        if x in russianletters:
+            ruscount += 1
+        if x in englishletters:
+            encount += 1
+    if ruscount > encount:
+        return "Русский"
+    if encount > ruscount:
+        return "Английский"
+
+for un in FODfile:
+    try:
+        un = un.split("/")
+        if un[2] not in categories:
+            categories.append(un[2])
+        fodwords.append({"word": un[0], "description": un[1], "category": un[2], "wordlanguage": getlanguage(un[0]), "id": generrorcode(un[1], "fod"), "letters": getletters(un[0])})
+    except:
+        mta(f"FODS: не удалось подгрузить тему <<{un}>>")    
+
+
+def getword(category):
+    words = []
+    for x in fodwords:
+        if x["category"] == category:
+            words.append(x)
+        else:
+            pass
+    try:
+        return randd.choice(words)
+    except Exception as e:
+        return "error/" + str(e) + "/error"
+
+def displayword(word, solved_letters, smiley):
+    sb = ""
+    #addspace = False
+    for x in word["word"]:
+        addspace = False
+        if x == " ":
+             sb += " "
+             addspace = True
+        if x.lower() in solved_letters and not addspace:
+             sb += x
+        if x.lower() not in solved_letters and not addspace:
+             sb += smiley
+    return sb
+
+mta("FODS: успешно запущен!")

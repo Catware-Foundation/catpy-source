@@ -1,0 +1,1 @@
+{"author": "CatWeird, aGrIk", "mode": "=", "deps": "None", "identificator": "death", "command_ru": "смерть", "description": "Предугадывание причины смерти. Можно указать число генерируемых смертей.", "testing": false, "hide": false, "restricted": true, "disabled": false}

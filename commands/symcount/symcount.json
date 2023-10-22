@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "start", "deps": "None", "identificator": "symcount", "command_ru": "символ", "description": "Считает встречаемость каждого символа в тексте", "testing": false, "hide": false, "restricted": false, "disabled": false}

@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "start", "deps": "None", "identificator": "randomcheck", "command_ru": "мощности", "description": "Проверка мощностей бота и справедливости рандомайзера. Синтаксис: мощности [итерации] [погрешность]", "testing": false, "hide": true, "restricted": false, "disabled": false}

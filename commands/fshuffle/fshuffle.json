@@ -1,0 +1,1 @@
+{"author": "Cat Weird", "mode": "start", "identificator": "fshuffle", "command_ru": "пб", "description": "Меняет первые буквы в предложении (пример: пачка чипсов -> чачка пипсов). Действует строго рандому", "testing": false, "hide": false, "restricted": false, "disabled": false}

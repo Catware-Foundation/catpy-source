@@ -1,0 +1,88 @@
+# CatOS-Type Package
+author = "catwared"
+mode = "pic"
+deps = 'None'
+identificator = 'colours'
+command_ru = 'цвета'
+description = 'Реверсировать цвета на картинке'
+
+Download(ReadFF('argv_picture.txt'), 'tmp/image.jpg')
+img = Image.open("tmp/image.jpg") 
+pixels = img.load() 
+store = ''
+
+def Reverse_(tuples):
+    new_tup = tuples[::-1]
+    return new_tup
+
+colors_list = []
+
+try:
+    for i in range(img.size[0]):
+        for j in range(img.size[1]):
+            try:
+                for lllk in parameter.split('+'):
+                    parameter = lllk
+                    if parameter == '':
+                        pixels[i,j] = Reverse_(pixels[i,j])
+                    if parameter == 'бч':
+                        R,G,B = img.getpixel((i,j))
+                        brightness = sum([R,G,B])
+                        #brightness = 255 - brightness
+                        pixels[i,j] = (brightness, brightness, brightness)
+                    if parameter == 'чб':
+                        R,G,B = img.getpixel((i,j))
+                        brightness = sum([R,G,B])
+                        brightness = 255 - brightness
+                        pixels[i,j] = (brightness, brightness, brightness)
+                    if parameter == 'очб':
+                        R,G,B = img.getpixel((i,j))
+                        brightness = sum([R,G,B])
+                        #brightness = 255 - brightness
+                        if brightness < 145:
+                            pixels[i,j] = (255, 255, 255)
+                        else:
+                            pixels[i,j] = (0, 0, 0)
+                    if parameter == 'очбс':
+                        R,G,B = img.getpixel((i,j))
+                        brightness = sum([R,G,B])
+                        #brightness = 255 - brightness
+                        if brightness < 145:
+                            b = randd.randint(0,255)
+                            pixels[i,j] = (b, b, b)
+                        else:
+                            pixels[i,j] = (0, 0, 0)
+                    if parameter == 'разброс':
+                        pixels[i,j] = pixels[i+randd.randint(-10,10),j+randd.randint(-10,10)]
+                    if parameter == 'мелт':
+                        pixels[i,j] = pixels[i,j+randd.randint(-10,10)]
+                    if parameter == 'флеш':
+                        pixels[i,j] = pixels[i+randd.randint(-10,10),j]
+                    if parameter == 'сорт':
+                        pixels[i,j] = tuple(sorted(pixels[i,j]))
+                    if parameter == 'список':
+                        try:
+                            if webcolors.rgb_to_name(pixels[i,j]) not in colors_list:
+                                colors_list.append(webcolors.rgb_to_name(pixels[i,j]))
+                        except:
+                            pass
+                    if parameter == 'шафл':
+                        pix = list(pixels[i,j])
+                        randd.shuffle(pix)
+                        pixels[i,j] = tuple(pix)
+                    #tup = pixels[i,j]
+                    #tup = tuple(map(int,input().split()))
+                    #ld = list(tup)
+                    #random.shuffle(ld)
+                    #tup = tuple(ld)
+                    #pixels[i,j] = tup
+            except:
+                pass
+    if parameter != 'список':
+        img.save('tmp/stas.png')
+        #print('typical pixel = ' + str(store))
+        picturedata('tmp/stas.png', "Изображение готово.")
+    else:
+        message("Список цветов, найденных на данной картинке: \n" + '\n - '.join(colors_list))
+except Exception as e:
+    message("Обработать изображение не удалось.")

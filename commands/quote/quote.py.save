@@ -1,0 +1,20 @@
+audiourls = []
+for audio in event.object["attachments"]:
+    try:
+        if audio["type"] == "audio":
+            if ".mp3" in audio["audio"]["url"]:
+                ret += f{{audio["audio"]["artist"]} - {audio["audio"]["taudio["audio"]["url"]}\n'
+            else:
+                ret += f'Трек: {audio["audio"]["artist"]} - {audio["audio"]["title"]}, невозможно получить ссылку\n'
+        elif audio["type"] == "audio_message":
+            ret += f'Голосовое: {audio["audio_message"]["link_mp3"]}\n'
+    except:
+        pass
+
+for aye in event.object["fwd_messages"]:
+    for audio in aye["attachments"]:
+        try:
+            if audio["type"] == "audio_message":
+                ret += f'Голосовое: {audio["audio_message"]["link_mp3"]}\n'
+        except:
+            pass

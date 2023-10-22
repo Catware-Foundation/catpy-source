@@ -1,0 +1,1 @@
+{"author": "catwared", "mode": "start", "deps": "None", "identificator": "ip", "command_ru": "вычислить1", "description": "Вычислить человека по IP", "testing": false, "hide": true, "restricted": false, "disabled": true}

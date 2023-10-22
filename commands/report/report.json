@@ -1,0 +1,1 @@
+{"author": "catweird, aGrIk", "mode": "start", "deps": "None", "identificator": "report", "command_ru": "репорт", "description": "Отправить сообщение администрации CatPy Stable. Также можно прикладывать скриншот к репорту", "testing": false, "hide": false, "restricted": false, "disabled": false}

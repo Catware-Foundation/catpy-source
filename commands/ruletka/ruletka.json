@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "=", "deps": "None", "identificator": "ruletka", "command_ru": "рулетка", "description": "Пытается застрелить всех участников беседы, но убивает только одного. Есть более жестокий аналог: /чат рулетка", "testing": false, "hide": false, "restricted": false, "disabled": false}

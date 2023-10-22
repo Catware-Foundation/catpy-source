@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "start", "deps": "None", "identificator": "youtube", "command_ru": "ютуб", "description": "Ищет каналы и видео на видеохостинге YouTube. Укажите флаг \"-видео\" в конце для поиска видео", "testing": false, "hide": false, "restricted": false, "disabled": false}

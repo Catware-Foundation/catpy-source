@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "start", "deps": "None", "identificator": "spellchecker", "command_ru": "орфография", "description": "Проверяет текст на наличие орфографических ошибок на базе Яндекс.Спеллера", "testing": false, "hide": false, "restricted": false, "disabled": false}

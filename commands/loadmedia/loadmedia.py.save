@@ -1,0 +1,28 @@
+# CatOS-Type Package
+ret = ""
+for audio in event.object["attachments"]:
+    try:
+        if audio["type"] == "audio":
+            ret += f'Трек: {audio["audio"]["artist"]} - {audio["audio"]["title"]}, {audio["audio"]["url"]}\n'
+        elif audio["type"] == "audio_message":
+            ret += f'Голосовое: {audio["audio_message"]["link_mp3"]}\n'
+    except:
+        pass
+
+for aye in event.object["fwd_messages"]:
+    for audio in aye["attachments"]:
+        try:
+            if audio["type"] == "audio":
+                Downlo("youtube-dl" + audio["audio"]["url"])
+            elif audio["type"] == "audio_message":
+                ret += f'Голосовое: {audio["audio_message"]["link_mp3"]}\n'
+        except:
+            pass
+
+if ret:
+    message("К сожалению, команда отключена. :(")
+else:
+    if not event.from_chat:
+        message("Ничего не найдено.")
+    else:
+        message("Ничего не найдено. Возможно, что это произошло из-за особенностей ВКонтакте, которые не позволяют команде работать в беседах должным образом.")

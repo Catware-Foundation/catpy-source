@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "start", "identificator": "command", "command_ru": "команда", "description": "Выводит информацию о пакете команды. В качестве параметра принимается идентификатор или имя команды.", "testing": true, "hide": false, "restricted": false, "disabled": false}

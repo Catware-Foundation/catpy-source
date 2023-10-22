@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "start", "deps": "None", "identificator": "imt", "command_ru": "имт", "description": "Рассчитывает ваш индекс массы тела. Использование: /имт [рост в см] [вес в кг]", "testing": false, "hide": false, "restricted": false, "disabled": false}

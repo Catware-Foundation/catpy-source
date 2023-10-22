@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "=", "deps": "None", "identificator": "lyrics", "command_ru": "текст", "description": "Поиск текста песни в базе данных Genius.", "testing": false, "hide": false, "restricted": false, "disabled": false}

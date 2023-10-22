@@ -1,0 +1,1 @@
+{"author": "catweird", "mode": "start", "identificator": "winerror", "command_ru": "ошибка", "description": "Создание ошибки в стиле Windows XP. Использование: ошибка заглавие;текст;кнопка1;кнопка2;кнопка3", "testing": false, "hide": false, "restricted": false, "disabled": false}

@@ -1,0 +1,4 @@
+Catware RepoList for CatOS 0.9_39
+
+catrep http://catrepo.pythonanywhere.com/
+catrep https://vk.com/

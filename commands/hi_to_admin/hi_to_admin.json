@@ -1,0 +1,1 @@
+{"author": "Hornet", "mode": "start", "deps": "None", "identificator": "hi_to_admin", "command_ru": "приветадминам", "description": "Передает привет админам котопая от юзера", "testing": false, "hide": false, "restricted": false, "disabled": false}

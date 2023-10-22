@@ -1,0 +1,1 @@
+{"author": "aGrIk, platofff", "mode": "=", "deps": "None", "identificator": "currency", "command_ru": "курс", "description": "Выводит курс валют по данным ЦБ РФ", "testing": false, "hide": false, "restricted": false, "disabled": false}

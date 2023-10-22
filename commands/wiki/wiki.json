@@ -1,0 +1,1 @@
+{"author": "catwared, aGrIk", "mode": "start", "deps": "None", "identificator": "wiki", "command_ru": "вики", "description": "Поиск в Википедии\nИспользуйте флаг -кратко для сокращения информации в размер 4 предложений.", "testing": false, "hide": false, "restricted": false, "disabled": false}

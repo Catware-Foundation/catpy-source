@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "start", "deps": "None", "identificator": "whois", "command_ru": "вычислить", "description": "Вытягивает всю инфу про айпи из WHOIS.\nИспользование: /вычислить имяхоста", "testing": false, "hide": false, "restricted": false, "disabled": false}

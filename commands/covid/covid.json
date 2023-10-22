@@ -1,0 +1,1 @@
+{"author": "NirOK, aGrIk", "mode": "=", "deps": "None", "identificator": "covid", "command_ru": "ковид", "description": "Выводит последнюю доступную статистику коронавируса по России", "testing": false, "hide": false, "restricted": false, "disabled": false}

@@ -1,0 +1,1 @@
+{"author": "catwared, aGrIk", "mode": "start", "deps": "None", "identificator": "yap", "command_ru": "перевод", "description": "Перевод текста с помощью Google Translate\nИспользование команды: перевод -<рус/анг/нем> <текст>", "testing": false, "hide": false, "restricted": false, "disabled": false}

@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "=", "deps": "None", "identificator": "tester", "command_ru": "тестер", "description": "Показывает информацию о тестировщике (текущий пользователь по умолчанию)", "testing": true, "hide": true, "restricted": false, "disabled": false}

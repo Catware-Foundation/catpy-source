@@ -1,0 +1,20 @@
+<section class="mbr-section content1 cid-smt3Ffa2KD" id="content1-u">
+    
+    
+    <div class="container">
+        <div class="title mbr-pb-4">
+            <h3 class="mbr-section-title mbr-fonts-style mbr-bold display-2"><span style="font-weight: normal;">Информация для разработчиков:</span></h3>
+        </div>
+        <div class="mbr-row mbr-jc-c">
+            <div class="card mbr-col-sm-12 mbr-col-lg-12">
+                <p class="mbr-text mbr-fonts-style display-7">Версия catABMS: $catabms_version<br>Имя бота: $botname<br>Кодовое имя: $codename<br>Дата релиза: $releasedate<br>Количество команд: $commands_count<br><strong>(с) Catware Development</strong></p>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+</section>
+  
+</body>
+</html>

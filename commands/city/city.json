@@ -1,0 +1,1 @@
+{"author": "aGrIk", "mode": "=", "deps": "None", "identificator": "city", "command_ru": "город", "description": "Сохраняет/показывает населённый пункт по умолчанию для некоторых команд", "testing": false, "hide": false, "restricted": false, "disabled": false}

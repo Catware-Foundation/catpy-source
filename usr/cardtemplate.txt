@@ -1,0 +1,17 @@
+<section class="mbr-section content1 cid-smjino0vUt animate__animated animate__backInRight" id="content1-i">
+    
+    
+    <div class="container">
+        <div class="title mbr-pb-4">
+            <h3 class="mbr-section-title mbr-fonts-style mbr-bold display-2">$commandname</h3>
+        </div>
+        <div class="mbr-row mbr-jc-c">
+            <div class="card mbr-col-sm-12 mbr-col-lg-12">
+                <p class="mbr-text mbr-fonts-style display-7">$description<br>Автор: $author</p>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+</section>

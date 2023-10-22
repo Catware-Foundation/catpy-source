@@ -1,0 +1,1 @@
+{'date': 1610229742, 'from_id': 242722587, 'id': 638, 'out': 0, 'peer_id': 242722587, 'text': '/время', 'conversation_message_id': 152, 'fwd_messages': [], 'important': False, 'random_id': 0, 'attachments': [], 'is_hidden': False}
